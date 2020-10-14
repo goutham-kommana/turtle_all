@@ -1,0 +1,27 @@
+<launch>
+
+  <node pkg ="turtle_all"
+        type="main.py"
+        name="turtle_all_node"
+        output="screen">
+  </node>
+
+  <node pkg ="turtle_move"
+        type="main.py"
+        name="turtle_move_node"
+        output="screen">
+  </node>
+
+    <node pkg ="turtle_watchdog"
+        type="main.py"
+        name="turtle_watchdog_node"
+        output="screen">
+  </node>
+
+    <node pkg ="turtle_keyboard_input"
+        type="main.py"
+        name="turtle_keyboard_input_node"
+        output="screen">
+  </node>
+
+</launch>
